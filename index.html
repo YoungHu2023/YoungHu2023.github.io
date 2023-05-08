@@ -1,0 +1,185 @@
+<!--HTML5 tag-->
+<!DOCTYPE html>
+<script type="text/javascript">
+    alert('How are you?')
+</script>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="myhtml">
+<head>
+    <!--decode-->
+    <meta charset="utf-8" />
+    <title>Practice</title>
+</head>
+<body background="C:\Users\Yang\HTML_Practice\images\v2-8de975579c0ab61f8e79508153a5fe18_720w.webp">
+    space&nbsp;&lt;&gt;
+    <table border="1" width="50%" hight="600" align="center">
+        <thead>
+            <tr>
+                <!--auto black and center-->
+                <th>title1</th>
+                <th>title2</th>
+                <th>title3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <!--add "/" at the end of a starting label will end it-->
+    <a href="https:/www.google.com" target="_blank">
+        GOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOGLE
+        <img src="C:\Users\Yang\HTML_Practice\images\v2-3a6dcfc580ce735daa0ba46de80cc76d_r.jpg" alt="Image failed loading" width="800" title="Here is a link to Google!" />
+    </a>-
+    <iframe src="http://www.iwara.tv/"></iframe>
+    <ul type="circle">
+        <li>list</li>
+        <li>item</li>
+        <li>things</li>
+    </ul>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+        <li>watermelon</li>
+    </ol>
+    <br />
+    form test
+    <form action="http:/www.google.com">
+        <input type="submit" value="Google!!!" />
+        <br />
+        User name: <input type="text" name="uname" id="username" />
+        <br />
+        Password: <input type="password" name="pwd" />
+        <br />
+        Sex: <input type="radio" name="sex" value="0" />Female
+        <input type="radio" name="sex" value="1" />Male
+        <br />
+        <input type="checkbox" name="agree" value="1" checked /> By ticking the box I agree the terms and conditions
+        <br />
+        Birthday:
+        <br />
+        <select name="list">
+            <option value="1">January</option>
+            <option value="2">Febuary</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+        </select>
+        <select name="list2">
+            <option value="1">1st</option>
+            <option value="2">2nd</option>
+            <option value="3">3rd</option>
+            <option value="4">4th</option>
+            <option value="5">5th</option>
+            <option value="6">6th</option>
+            <option value="7">7th</option>
+            <option value="8">8th</option>
+            <option value="9">9th</option>
+            <option value="10">10th</option>
+        </select>
+        <br />
+        <input type="submit" value="login" />
+        <input type="reset" value="reset" />
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    Feedback:
+    <form action="http:/www.google.com">
+        <textarea rows="10" cols="40" name="feedback" maxlength="3000"></textarea>
+        <input type="file" />
+        <input type="submit" value="submit" />
+    </form>
+    <select name="list3" size="5" multiple>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <!--style property-->
+    <div id="div1" style="background-color : antiquewhite;
+                    width:400px;
+                    height:200px"></div>
+    <!--style label-->
+    <style type="text/css">
+        /*no space below allowed!*/
+        div:hover {
+            font-size: larger;
+            color: aquamarine;
+        }
+        /*
+            label chooser
+        */
+        div {
+            background-color: ivory;
+            border: double;
+            border-width: thick;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        /*
+            id chooser
+        */
+        #username {
+            background-color: ghostwhite;
+            border: solid;
+            border-width: thick;
+        }
+        /*
+            class chooser
+        */
+        .test1 {
+            font-size: 14px;
+            color: dodgerblue;
+            /*display : none;*/
+            text-decoration: underline;
+        }
+    </style>
+    <!--link css style sheet-->
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+
+
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <!--all labels have "class" property-->
+    <span class="test1">Test Text in span</span>
+    <p class="test1">Test Text in paragraph</p>
+    <input type="button" value="Test" onclick="window.alert('Hello!')" ; />
+    <script type="text/javascript">
+        alert('I am good!')
+    </script>
+    <script type="text/javascript" src="Script1.js">
+    </script>
+</body>
+
+<!--<script type="text/javascript">
+    alert('Page ended')
+</script>-->
+</html>
